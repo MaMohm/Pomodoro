@@ -31,7 +31,8 @@ A modern **frontend-only** Pomodoro app built with **Vite + React** to help you 
 
 ## 🖼️ Screenshots
 
-> Add screenshots to `./assets` then update the paths below.
+> ![alt text](image.png)
+![alt text](<Capture d'écran 2026-02-04 222217.png>)
 
 <p align="center">
   <img src="./assets/screen-1.png" alt="Pomodoro Home" width="800" />
