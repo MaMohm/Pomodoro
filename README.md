@@ -11,8 +11,7 @@ A modern **frontend-only** Pomodoro app built with **Vite + React** to help you 
 ---
 
 ## 🚀 Live Demo
-- Demo: **(mamohm.github.io/Pomodoro/)**  
-  Example: `mamohm.github.io/Pomodoro/`
+- Demo: mamohm.github.io/Pomodoro/ 
 
 ---
 
