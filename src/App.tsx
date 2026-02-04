@@ -39,7 +39,7 @@ const PomodoroApp: React.FC = () => {
       />
 
       <footer className="app-footer">
-        <p>Stay focused, keep moving.</p>
+        <p>© {new Date().getFullYear()} Marwan.M. All rights reserved.</p>
       </footer>
     </div>
   );
