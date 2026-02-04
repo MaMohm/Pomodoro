@@ -1,0 +1,73 @@
+:root {
+  /* Base Colors & Typography */
+  --font-main: 'Inter', system-ui, sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 24px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Light Theme (Default) */
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f3f4f6;
+  --bg-tertiary: #e5e7eb;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --accent-color: #ef4444; /* Red for Pomodoro */
+  --accent-hover: #dc2626;
+  --border-color: #e5e7eb;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --bg-primary: #111827;
+  --bg-secondary: #1f2937;
+  --bg-tertiary: #374151;
+  --text-primary: #f9fafb;
+  --text-secondary: #9ca3af;
+  --accent-color: #f87171;
+  --accent-hover: #ef4444;
+  --border-color: #374151;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.5);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.5);
+}
+
+/* Forest Theme */
+[data-theme="forest"] {
+  --bg-primary: #ecfdf5;
+  --bg-secondary: #d1fae5;
+  --bg-tertiary: #a7f3d0;
+  --text-primary: #064e3b;
+  --text-secondary: #047857;
+  --accent-color: #059669;
+  --accent-hover: #047857;
+  --border-color: #6ee7b7;
+  --shadow-sm: 0 1px 2px 0 rgb(6 95 70 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(6 95 70 / 0.15);
+}
+
+/* Mode-specific overrides (can be applied to body/container) */
+[data-mode="short-break"] {
+  --accent-color: #10b981; /* Green */
+  --accent-hover: #059669;
+}
+
+[data-mode="long-break"] {
+  --accent-color: #3b82f6; /* Blue */
+  --accent-hover: #2563eb;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  transition: background-color var(--transition-medium), color var(--transition-medium);
+  margin: 0;
+  min-height: 100vh;
+}
