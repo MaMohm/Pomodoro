@@ -65,6 +65,7 @@ A modern **frontend-only** Pomodoro app built with **Vite + React** to help you 
 
 > ✅ 100% client-side  
 > ❌ No backend • ❌ No auth • ❌ No external services required
+> 
 
 
 src/
@@ -74,3 +75,5 @@ src/
  ├─ styles/          # Global styles & themes
  ├─ App.tsx          # Main application component
  └─ main.tsx         # Entry point
+
+ ### Made with love 😍 
