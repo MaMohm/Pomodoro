@@ -64,7 +64,6 @@ A modern **frontend-only** Pomodoro app built with **Vite + React** to help you 
 - 🌐 Browser APIs: Notifications, Audio, Storage
 
 > ✅ 100% client-side  
-> ❌ No backend • ❌ No auth • ❌ No external services required
 > 
 
 
