@@ -1,4 +1,4 @@
-# 🍅 Pomodoro — Focus Timer ( need freebackend the limited backend out )
+# 🍅 Pomodoro — Focus Timer
 
 A modern **frontend-only** Pomodoro app built with **Vite + React** to help you stay focused, manage tasks, and track productivity — with **notifications & gentle sounds** and **no backend**.
 
